@@ -4,7 +4,7 @@ const Jsuser = {
     name : "Manish",
     batch : "2023-27",
     "branch" : "CSE",
-    emailId : "mtswarn666@gmail.com",
+    emailId : "test@gmail.com",
     CGPA : 8,
     mySym: "mykeys",
 
