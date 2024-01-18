@@ -13,3 +13,4 @@ console.log(Jsuser.name);
 console.log(Jsuser["branch"]);
 console.log(mySym);
 console.log(typeof Jsuser.mySym);
+// Bye bye for today will meet you tommorow
