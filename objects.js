@@ -18,4 +18,10 @@ console.log(typeof Jsuser.mySym);
 Jsuser.emailId = "test1@gmail.com"
 Object.freeze(Jsuser)
 Jsuser.emailId = "tests@gmail.com"
-console.log(Jsuser.enailId);
+console.log(Jsuser);
+
+Jsuser.greeting = function(){
+    console.log("Hello, Geeks");
+
+}
+ console.log(Jsuser.greeting);
