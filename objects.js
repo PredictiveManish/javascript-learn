@@ -14,3 +14,8 @@ console.log(Jsuser["branch"]);
 console.log(mySym);
 console.log(typeof Jsuser.mySym);
 // Bye bye for today will meet you tommorow
+// values in objects is accessed by using dot line 15
+Jsuser.emailId = "test1@gmail.com"
+Object.freeze(Jsuser)
+Jsuser.emailId = "tests@gmail.com"
+console.log(Jsuser.enailId);
