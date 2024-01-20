@@ -9,19 +9,23 @@ const Jsuser = {
     mySym: "mykeys",
 
 }
-console.log(Jsuser.name);
-console.log(Jsuser["branch"]);
-console.log(mySym);
-console.log(typeof Jsuser.mySym);
-// Bye bye for today will meet you tommorow
+// console.log(Jsuser.name);
+// console.log(Jsuser["branch"]);
+// console.log(mySym);
+// console.log(typeof Jsuser.mySym);
 // values in objects is accessed by using dot line 15
-Jsuser.emailId = "test1@gmail.com"
-Object.freeze(Jsuser)
-Jsuser.emailId = "tests@gmail.com"
-console.log(Jsuser);
+// Jsuser.emailId = "test1@gmail.com"
+// // Object.freeze(Jsuser)
+// Jsuser.emailId = "tests@gmail.com"
+// console.log(Jsuser);
 
-Jsuser.greeting = function(){
-    console.log("Hello, Geeks");
+Jsuser.greeting= function(){
+    console.log("Hello Geeks");
 
 }
+ Jsuser.greetings = function(){
+    console.log('Hello Geeks, $ {}  ');
+    
+ }
  console.log(Jsuser.greeting);
+ console.log(Jsuser.greetings);
