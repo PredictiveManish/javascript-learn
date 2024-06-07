@@ -1,0 +1,35 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"features": {
+		"ghcr.io/devcontainers-contrib/features/corepack:1": {
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers-contrib/features/meteor-cli:1": {
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers-contrib/features/mocha:2": {
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers-contrib/features/nestjs-cli:2": {
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers-contrib/features/node-asdf:0": {
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers-contrib/features/prisma:2": {
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers-contrib/features/ts-node:1": {
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers-contrib/features/vercel-ncc:1": {
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers-contrib/features/vercel-pkg:1": {
+			"version": "latest"
+		},
+		"ghcr.io/r3dpoint/devcontainer-features/tailwindcss-standalone-cli:1": {
+			"version": "latest"
+		}
+	}
+}
